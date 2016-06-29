@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Meeting room</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string></string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Name</string>
+			<key>Key</key>
+			<string>roomName</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>URL Logo</string>
+			<key>Key</key>
+			<string>roomLogoURL</string>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>KeyboardType</key>
+			<string>URL</string>
+			<key>DefaultValue</key>
+			<string>https://hb.willemengroep.eu/sign/logo/logo-willemen-groep.png</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Release room after confirmation countdown</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>DefaultValue</key>
+			<true/>
+			<key>Title</key>
+			<string>Free after countdown</string>
+			<key>Key</key>
+			<string>roomSetFree</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Time to confirm presence</string>
+			<key>Key</key>
+			<string>roomTimeToConfirm</string>
+			<key>DefaultValue</key>
+			<string>900</string>
+			<key>Titles</key>
+			<array>
+				<string>15 seconds</string>
+				<string>5 minutes</string>
+				<string>15 minutes</string>
+				<string>30 minutes</string>
+				<string>1 hour</string>
+				<string>2 hours</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>15</string>
+				<string>300</string>
+				<string>900</string>
+				<string>1800</string>
+				<string>3600</string>
+				<string>7200</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Send e-mail messages</string>
+			<key>Key</key>
+			<string>roomShouldSendMail</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>KeyboardType</key>
+			<string>EmailAddress</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Notify address</string>
+			<key>Key</key>
+			<string>roomNotifier</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>SMTP Settings</string>
+		</dict>
+		<dict>
+			<key>KeyboardType</key>
+			<string>URL</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>DefaultValue</key>
+			<string>smtp.outlook.microsoft.com</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Hostname</string>
+			<key>Key</key>
+			<string>smtpHost</string>
+		</dict>
+		<dict>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>DefaultValue</key>
+			<string>587</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>KeyboardType</key>
+			<string>NumberPad</string>
+			<key>Key</key>
+			<string>smtpPort</string>
+			<key>Title</key>
+			<string>Port number</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>1</string>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Authentication</string>
+			<key>Key</key>
+			<string>smtpAuth</string>
+			<key>Titles</key>
+			<array>
+				<string>None</string>
+				<string>StartTLS</string>
+				<string>TLS</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>0</string>
+				<string>1</string>
+				<string>2</string>
+			</array>
+		</dict>
+		<dict>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>KeyboardType</key>
+			<string>EmailAddress</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Sender</string>
+			<key>Key</key>
+			<string>smtpEmail</string>
+		</dict>
+		<dict>
+			<key>AutocorrectionType</key>
+			<string></string>
+			<key>KeyboardType</key>
+			<string>EmailAddress</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Username</string>
+			<key>Key</key>
+			<string>smtpUser</string>
+		</dict>
+		<dict>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>KeyboardType</key>
+			<string>Alphabet</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>IsSecure</key>
+			<true/>
+			<key>Title</key>
+			<string>Password</string>
+			<key>Key</key>
+			<string>smtpPassword</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>

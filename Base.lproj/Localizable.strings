@@ -1,0 +1,34 @@
+/* 
+  Localizable.strings
+  Roomplanner02
+
+  Created by Tiele Declercq on 26/01/15.
+  Copyright (c) 2015 Tiele Declercq. All rights reserved.
+*/
+
+"Available" = "Available";
+"Book now" = "Book now";
+
+"To be confirmed" = "To be confirmed";
+"Confirm\r\npresence" = "Confirm\r\npresence";
+"Confirm within %d minutes" = "Presence needs to be confirmed within %d minutes.";
+"Reservation deleted" = "Reservatie cancelled";
+"%@, reservation %@ at %@ in %@ was cancelled." = "%@,\r\n\r\nReservatie '%@' at %@ in %@ organised by you has been cancelled due to lack of confirmation of presence.\r\n\r\nBest regards,\r\nRoomplanner";
+
+"Occupied" = "Occupied";
+"Release" = "Release";
+"Release when finished" = "Please release the room if the meeting has been ended prematurely";
+
+"15 minutes" = "15 minutes";
+"30 minutes" = "30 minutes";
+"1 hour" = "1 hour";
+"2 hours" = "2 hours";
+"4 hours" = "4 hours";
+"8 hours" = "8 hours";
+
+"Book room" = "Book room";
+"Cancel" = "Cancel";
+"Your name" = "Your name";
+"Close in %02d:%02d" = "Window will be closed in: %02d:%02d";
+"Roomplanner booking" = "Roomplanner booking";
+"No access to calendar" = "No access to calendar!";
